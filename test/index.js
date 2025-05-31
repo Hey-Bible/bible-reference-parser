@@ -1,7 +1,6 @@
 // Dependencies
-var RefParser = require("../lib")
-  , Debug = require("bug-killer")
-  ;
+import RefParser from "../lib/index.js";
+const { default: Debug } = await import("bug-killer");
 
 // Tests
 const TESTS = [
